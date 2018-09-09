@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/questions_style"
+                android:text="@string/question1" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/brain0" />
+
+                <LinearLayout
+                    android:id="@+id/question_1_radio_group"
+                    style="@style/radioGroup">
+
+                    <CheckBox
+                        style="@style/checkbox_style"
+                        android:onClick="onCheckboxClickedYes"
+                        android:text="@string/yes" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox"
+                        style="@style/checkbox_style"
+                        android:onClick="onCheckboxClickedMaybe"
+                        android:text="@string/maybe" />
+
+                    <CheckBox
+                        style="@style/checkbox_style"
+                        android:onClick="onCheckboxClickedNo"
+                        android:text="@string/no" />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/questions_style"
+                android:text="@string/question2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/brain11" />
+
+                <LinearLayout
+                    android:id="@+id/question_2_radio_group"
+                    style="@style/radioGroup">
+
+                    <CheckBox
+                        style="@style/checkbox_style"
+                        android:onClick="onCheckboxClickedYes"
+                        android:text="@string/yes" />
+
+                    <CheckBox
+                        style="@style/checkbox_style"
+                        android:onClick="onCheckboxClickedNo"
+                        android:text="@string/no" />
+
+                    <CheckBox
+                        style="@style/checkbox_style"
+                        android:onClick="onCheckboxClickedMaybe"
+                        android:text="@string/maybe" />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/questions_style"
+                android:text="@string/question3" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/brain12" />
+
+                <LinearLayout
+                    android:id="@+id/question_3_radio_group"
+                    style="@style/radioGroup">
+
+                    <CheckBox
+                        style="@style/checkbox_style"
+                        android:onClick="onCheckboxClickedYes"
+                        android:text="@string/yes" />
+
+                    <CheckBox
+                        style="@style/checkbox_style"
+                        android:onClick="onCheckboxClickedNo"
+                        android:text="@string/no" />
+
+                    <CheckBox
+                        style="@style/checkbox_style"
+                        android:onClick="onCheckboxClickedMaybe"
+                        android:text="@string/maybe" />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/questions_style"
+                android:text="@string/question4" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/brain13" />
+
+                <LinearLayout
+                    android:id="@+id/question_4_radio_group"
+                    style="@style/radioGroup">
+
+                    <CheckBox
+                        style="@style/checkbox_style"
+                        android:onClick="onCheckboxClickedYes"
+                        android:text="@string/yes" />
+
+                    <CheckBox
+                        style="@style/checkbox_style"
+                        android:onClick="onCheckboxClickedNo"
+                        android:text="@string/no" />
+
+                    <CheckBox
+                        style="@style/checkbox_style"
+                        android:onClick="onCheckboxClickedMaybe"
+                        android:text="@string/maybe" />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/questions_style"
+                android:text="@string/question5" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/brain14" />
+
+                <LinearLayout
+                    android:id="@+id/question_5_radio_group"
+                    style="@style/radioGroup">
+
+                    <CheckBox
+                        style="@style/checkbox_style"
+                        android:onClick="onCheckboxClickedYes"
+                        android:text="@string/yes" />
+
+                    <CheckBox
+                        style="@style/checkbox_style"
+                        android:onClick="onCheckboxClickedNo"
+                        android:text="@string/no" />
+
+                    <CheckBox
+                        style="@style/checkbox_style"
+                        android:onClick="onCheckboxClickedMaybe"
+                        android:text="@string/maybe" />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/show_answers"
+                style="@style/buttonsQuiz"
+                android:text="@string/resultButton" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

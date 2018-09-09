@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_newGame"
+        android:title="@string/newGame"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_endGame"
+        android:title="@string/endGame"
+        app:showAsAction="never" />
+
+
+
+    <item
+        android:id="@+id/action_lang"
+        android:title="@string/language"
+        app:showAsAction="never" />
+
+
+
+</menu>
